@@ -28,7 +28,7 @@ Es importante destacar que el diseño y funcionamiento de las incubadoras neonat
 
 En conclusión, la incubadora neonatal es un sistema complejo que integra subsistemas de calentamiento, ventilación, humidificación, monitoreo y control, todos orientados a proporcionar un ambiente estable y seguro para el neonato. Su correcta operación es fundamental en el cuidado neonatal y está respaldada por principios de ingeniería biomédica y normativas internacionales [1]–[4].
 
-Referencias (formato IEEE)
+# Referencias
 
 [1] John G. Webster, Medical Instrumentation: Application and Design, 4th ed. Hoboken, NJ, USA: Wiley, 2010.
 
