@@ -121,11 +121,6 @@ El sistema construido representa un prototipo educativo funcional, no un disposi
 
 #### Control de temperatura
 
-| Variable | Valor esperado | Valor obtenido |
-|---|:---:|:---:|
-| Temperatura mínima del rango | 36 °C | — |
-| Temperatura máxima del rango | 37,5 °C | — |
-| Temperatura máxima alcanzada | 37,5 °C | ~32 °C |
 
 El sistema de calefacción no logró alcanzar el rango de temperatura establecido de 36 °C a 37,5 °C. La temperatura máxima registrada en el interior de la cabina fue de aproximadamente 32 °C, lo que representa una diferencia de al menos 4 °C respecto al límite inferior del rango objetivo. Este resultado puede atribuirse a dos causas que operan de manera simultánea: por un lado, el bombillo incandescente utilizado no generó la potencia calorífica suficiente para elevar la temperatura de un volumen de aire del tamaño de la cabina hasta el nivel requerido; por otro lado, el aislamiento térmico provisto por la espuma de poliestireno no fue suficiente para retener el calor generado, de modo que las pérdidas hacia el ambiente externo compensaron parcialmente el calor aportado por el elemento calefactor.
 
@@ -133,11 +128,6 @@ Para superar estas limitaciones en versiones futuras del prototipo, se propone r
 
 #### Medición de peso
 
-| Variable | Descripción |
-|---|---|
-| Sensor utilizado | Galga extensométrica 5 kg + módulo HX711 |
-| Exactitud observada | Aproximada, con error apreciable |
-| Comportamiento | El sistema detectó variaciones de peso, pero sin exactitud aceptable |
 
 La galga extensométrica entregó valores aproximados del peso, pero con un error que la hace insuficiente para aplicaciones donde se requiera precisión. Las causas más probables de este comportamiento son una calibración incompleta del sistema y la sensibilidad del módulo HX711 a vibraciones mecánicas externas, así como a la rigidez insuficiente de la plataforma de apoyo de la galga, que puede introducir deformaciones parásitas en la medición. Para mejorar este resultado, se propone realizar una calibración rigurosa con pesas patrón de masa conocida y rediseñar la plataforma de soporte con un material más rígido y una superficie nivelada, condiciones necesarias para que la galga trabaje dentro de su rango lineal de operación.
 
@@ -173,7 +163,6 @@ Desde una perspectiva más amplia, la diferencia de costo entre el prototipo des
 
 ## Referencias
 
-Las siguientes referencias están citadas siguiendo el estilo IEEE.
 
 [1] C. G. K. Tran, A. Gibson, D. Wong, D. Tilahun, N. Selock, T. Good, y G. Rao, "Designing a low-cost multifunctional infant incubator," *J. Lab. Autom.*, vol. 19, no. 3, pp. 332–337, Jun. 2014. https://doi.org/10.1177/2211068214530391
 
