@@ -119,12 +119,18 @@ Armazón de la incubadora
 
 Comparar el prototipo desarrollado con equipos disponibles en el mercado permite dimensionar con precisión las limitaciones del sistema y entender qué factores determinan el costo de una incubadora clínica real. El costo total del prototipo fue de aproximadamente 55 USD, frente a los 10.000 USD o más que puede costar un equipo comercial certificado. Esta diferencia no se explica únicamente por los materiales, sino por el conjunto de características que hacen apto a un dispositivo para uso clínico real: precisión metrológica, control activo de múltiples variables, sistemas de alarma, cumplimiento normativo y materiales biocompatibles de fácil desinfección.
 
-| Proveedor | Modelo (referencia) | Precio estimado (USD) | Características destacadas |
-|---|---|:---:|---|
-| Este trabajo | Incubadora a escala — ESP32 | ~55 | Prototipo educativo, control básico de temperatura y peso |
-| Dräger | Caleo / Isolette | 10.000 – 30.000+ | Control preciso de temperatura, humedad y O₂; alarmas clínicas; certificación médica |
-| Instrumentalia S.A.S. | Equipos neonatales importados | Variable según modelo | Distribución nacional de equipos certificados para UCI neonatal |
-| LEEX Medical | Incubadoras neonatales | Variable según modelo | Soluciones para entornos hospitalarios en Colombia |
+### Tabla Comparativa de Incubadoras Neonatales
+
+
+| Proveedor | Modelo (referencia) | Precio estimado (COP) | Características destacadas |
+| :--- | :--- | :--- | :--- |
+| **Este trabajo** | Incubadora a escala — ESP32 | **~$220.000** | *Prototipo educativo*; materiales de bajo costo y control básico. |
+| **Ningbo David** | YP-100 (Básico) | **$12.000.000 – $18.000.000** | Control de temperatura del aire y alarmas. *Común en clínicas de nivel 1 y 2.* |
+| **Fanem** | 1186 C / IT 158 | **$16.000.000 – $25.000.000** | Marca líder en la región; *robusta y fácil de reparar localmente.* |
+| **Comen** | Serie B (B3/B6) | **$18.000.000 – $35.000.000** | Pantallas táctiles y tecnología avanzada. *Relación costo-beneficio para UCI.* |
+| **Instrumentalia / LEEX** | Equipos Importados | **$25.000.000 – $50.000.000** | Modelos con servocontrol de humedad; *soporte técnico nacional.* |
+| **Dräger** | Isolette / Caleo | **$60.000.000 – $120.000.000+** | Alta gama. *Control total de microclima y máxima certificación.* |
+
 
 El sistema construido representa un prototipo educativo funcional, no un dispositivo médico. Su valor radica en la comprensión práctica de los principios de diseño y control, no en la replicación de las prestaciones clínicas de un equipo certificado.
 
