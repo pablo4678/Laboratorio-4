@@ -37,7 +37,7 @@ Para validar el principio de funcionamiento del sistema de calefacción antes de
 
 El circuito emplea un termistor como elemento sensor. Cuando la temperatura cae por debajo del límite inferior del rango, el sistema activa el elemento calefactor a través de un relé. Para ofrecer retroalimentación visual al operador sobre el estado térmico del sistema, se incorporó un panel de tres LEDs: uno verde para indicar que la temperatura se encuentra dentro del rango seguro, y dos rojos para señalar, respectivamente, que la temperatura está por debajo o por encima de los límites establecidos.
 
-*[Insertar aquí capturas de la simulación en el software utilizado]*
+<img width="762" height="530" alt="image" src="https://github.com/user-attachments/assets/42ffd8ff-d0e0-4a2f-938f-9ee938dcbe34" />
 
 ---
 
@@ -47,7 +47,8 @@ De forma paralela, se diseñó y simuló el sistema de pesaje, cuya función es 
 
 Este tipo de medición resulta especialmente relevante en el contexto clínico, ya que el seguimiento del peso del neonato es uno de los indicadores más directos de su evolución nutricional y de su estado general de salud.
 
-*[Insertar aquí capturas de la simulación en el software utilizado]*
+<img width="960" height="684" alt="Captura de pantalla 2026-04-23 141752" src="https://github.com/user-attachments/assets/797f1dde-18dc-438d-9ad0-8b4fc68def0c" />
+
 
 ---
 
@@ -96,7 +97,13 @@ La estructura principal se formó cortando y ensamblando piezas de cartón piedr
 
 El interior se recubrió con espuma de poliestireno expandido para reducir las pérdidas de calor por conducción y convección hacia el ambiente externo. A continuación se instaló el sistema de calefacción y ventilación, compuesto por un ventilador de 5 V y un bombillo incandescente como elemento calefactor, ambos controlados mediante el relé conectado al ESP32. En una etapa posterior se integró el sistema de pesaje, formado por la galga extensométrica de 5 kg, el módulo HX711 y el ESP32, con la pantalla LCD mostrando el valor en tiempo real. Finalmente, se completó el panel de monitoreo con el sensor DHT11 para temperatura y humedad, las pantallas OLED y LCD, y el panel de LEDs indicadores del estado térmico del sistema.
 
-*[Insertar aquí fotografías del proceso de construcción y del producto final]*
+[Detección de peso]<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/408a090d-0dba-4992-9551-20ffe78128f6" />
+
+
+
+[Circuito con la oled, que indica temperatura]<img width="1600" height="1204" alt="temperatura" src="https://github.com/user-attachments/assets/dcd9692b-cb06-463c-b24e-de526a5ccbfb" />
+
+[Armazón de la incubadora]<img width="1600" height="1204" alt="foto incubadora" src="https://github.com/user-attachments/assets/90821b76-0c20-44bd-9b96-4873f8773a44" />
 
 ---
 
