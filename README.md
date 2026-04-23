@@ -91,19 +91,17 @@ Las fuentes de alimentación de 5 V se obtuvieron reutilizando cargadores de cel
 
 ### Proceso de Armado
 
-La construcción del modelo a escala siguió una secuencia lógica que va desde la estructura física hasta la integración electrónica. En cada etapa se tomaron decisiones de diseño orientadas a equilibrar el costo, la funcionalidad y la representatividad del prototipo respecto a un equipo real.
+La estructura principal de la incubadora se formó cortando y ensamblando piezas de cartón piedra y palos de balso, con dimensiones aproximadas de 40 cm × 25 cm × 20 cm conforme a las especificaciones de la guía de laboratorio. Sobre esta base se instaló la cubierta transparente, fabricada con láminas de acetato en la tapa y las paredes laterales visibles, lo que permite observar el interior sin necesidad de abrir el dispositivo. La tapa superior se aseguró con imanes para facilitar su apertura y cierre de forma repetida sin dañar la estructura.
 
-La estructura principal se formó cortando y ensamblando piezas de cartón piedra y palos de balso, con dimensiones aproximadas de 90 cm × 40 cm × 45 cm conforme a las especificaciones de la guía de laboratorio. Sobre esta base se instaló la cubierta transparente, fabricada con láminas de acetato en la tapa y las paredes laterales visibles, lo que permite observar el interior sin necesidad de abrir el dispositivo. La tapa superior se aseguró con imanes para facilitar su apertura y cierre de forma repetida sin dañar la estructura.
+El interior se recubrió con espuma de poliestireno expandido para reducir las pérdidas de calor por conducción y convección hacia el ambiente externo. A continuación se instaló el sistema de calefacción y ventilación, compuesto por un ventilador de 5 V y un bombillo incandescente como elemento calefactor, el bombillo siendo controlado mediante el relé conectado al ESP32. En una etapa posterior se integró el sistema de pesaje, formado por la galga extensométrica de 5 kg, el módulo HX711 y el ESP32, con la pantalla LCD mostrando el valor en tiempo real. Finalmente, se completó el panel de monitoreo con el sensor DHT11 para temperatura, las pantallas OLED y LCD, y el panel de LEDs indicadores del estado térmico del sistema.
 
-El interior se recubrió con espuma de poliestireno expandido para reducir las pérdidas de calor por conducción y convección hacia el ambiente externo. A continuación se instaló el sistema de calefacción y ventilación, compuesto por un ventilador de 5 V y un bombillo incandescente como elemento calefactor, ambos controlados mediante el relé conectado al ESP32. En una etapa posterior se integró el sistema de pesaje, formado por la galga extensométrica de 5 kg, el módulo HX711 y el ESP32, con la pantalla LCD mostrando el valor en tiempo real. Finalmente, se completó el panel de monitoreo con el sensor DHT11 para temperatura y humedad, las pantallas OLED y LCD, y el panel de LEDs indicadores del estado térmico del sistema.
-
-[Detección de peso]<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/408a090d-0dba-4992-9551-20ffe78128f6" />
+![Detección de peso]<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/408a090d-0dba-4992-9551-20ffe78128f6" />
 
 
 
-[Circuito con la oled, que indica temperatura]<img width="1600" height="1204" alt="temperatura" src="https://github.com/user-attachments/assets/dcd9692b-cb06-463c-b24e-de526a5ccbfb" />
+![Circuito con la oled, que indica temperatura]<img width="1600" height="1204" alt="temperatura" src="https://github.com/user-attachments/assets/dcd9692b-cb06-463c-b24e-de526a5ccbfb" />
 
-[Armazón de la incubadora]<img width="1600" height="1204" alt="foto incubadora" src="https://github.com/user-attachments/assets/90821b76-0c20-44bd-9b96-4873f8773a44" />
+![Armazón de la incubadora]<img width="1600" height="1204" alt="foto incubadora" src="https://github.com/user-attachments/assets/90821b76-0c20-44bd-9b96-4873f8773a44" />
 
 ---
 
